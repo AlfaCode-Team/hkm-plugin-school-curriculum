@@ -1,0 +1,20 @@
+{
+    "name": "school-curriculum",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.curriculum",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "school.classes"
+    ],
+    "exposes": [
+        "Plugins\\SchoolCurriculum\\API\\Contracts\\SchoolCurriculumContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Curriculum programmes, phases, books and per-teacher plans, with auto-planning.",
+    "config": []
+}
